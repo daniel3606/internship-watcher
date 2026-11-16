@@ -67,6 +67,11 @@ def push(topic, title, body, url):
 
 def main():
     topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if os.environ.get("TEST_PING") == "true":
+        if not topic:
+            sys.exit("NTFY_TOPIC secret is missing")
+        push(topic, "Internship watcher test", "If you see this, alerts work.", "https://github.com/SimplifyJobs/Summer2027-Internships")
+        print("test ping sent")
     os.makedirs(os.path.dirname(SEEN), exist_ok=True)
     first = not os.path.exists(SEEN)
     seen = set()
