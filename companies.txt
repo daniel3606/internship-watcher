@@ -1,0 +1,377 @@
+# SPAN-tier-or-above companies (SPAN ≈ Series C, ~$1B valuation).
+# One name per line, matched case-insensitively against SimplifyJobs "company_name"
+# (prefix match: "Google" also matches "Google DeepMind"). Lines starting with # are ignored.
+# Edit freely: add companies you'd take over SPAN, delete ones you wouldn't.
+
+# --- Big Tech / large public tech ---
+Google
+Alphabet
+Meta
+Apple
+Amazon
+Amazon Web Services
+Microsoft
+Netflix
+Nvidia
+Tesla
+Oracle
+Salesforce
+Adobe
+IBM
+Intel
+AMD
+Qualcomm
+Cisco
+Uber
+Lyft
+Airbnb
+DoorDash
+Instacart
+Pinterest
+Snap
+Spotify
+Reddit
+LinkedIn
+TikTok
+ByteDance
+Roblox
+Electronic Arts
+Activision
+Blizzard Entertainment
+Epic Games
+Riot Games
+Valve
+Nintendo
+Sony
+Sony Interactive Entertainment
+PlayStation
+Samsung
+Shopify
+Square
+Block
+Cash App
+PayPal
+Venmo
+Stripe
+Coinbase
+Robinhood
+Visa
+Mastercard
+American Express
+Capital One
+Intuit
+Atlassian
+Workday
+ServiceNow
+Snowflake
+Databricks
+Datadog
+MongoDB
+Cloudflare
+Palantir
+Twilio
+Okta
+CrowdStrike
+Palo Alto Networks
+Zscaler
+Fortinet
+HubSpot
+Zoom
+Dropbox
+Box
+DocuSign
+Autodesk
+VMware
+Broadcom
+Dell
+HP
+Hewlett Packard Enterprise
+NetApp
+Nutanix
+Splunk
+Elastic
+GitLab
+GitHub
+Unity
+Zillow
+Expedia
+Booking.com
+Etsy
+eBay
+Wayfair
+Chewy
+Peloton
+Duolingo
+Grammarly
+Canva
+Figma
+Notion
+Airtable
+Asana
+Monday.com
+Miro
+Slack
+Discord
+Twitch
+Yelp
+Nextdoor
+Bumble
+Tinder
+Match Group
+Hinge
+Grubhub
+Toast
+Affirm
+SoFi
+Chime
+Plaid
+Brex
+Ramp
+Rippling
+Gusto
+Deel
+Mercury
+Wealthfront
+Betterment
+Klaviyo
+Samsara
+Verkada
+Anduril
+SpaceX
+Blue Origin
+Rivian
+Lucid
+Waymo
+Cruise
+Zoox
+Aurora
+Nuro
+Applied Intuition
+Scale AI
+OpenAI
+Anthropic
+xAI
+Mistral
+Cohere
+Perplexity
+Character.AI
+Hugging Face
+Runway
+ElevenLabs
+Glean
+Harvey
+Cursor
+Anysphere
+Replit
+Vercel
+Supabase
+Retool
+Linear
+Postman
+Webflow
+Squarespace
+Wix
+Snyk
+1Password
+Wiz
+Vanta
+Lattice
+Benchling
+Flexport
+Faire
+Gopuff
+Whatnot
+StockX
+Poshmark
+Strava
+Calm
+Headspace
+Oura
+Whoop
+Fitbit
+Garmin
+Sonos
+GoPro
+Bose
+Logitech
+Arista Networks
+Juniper Networks
+Akamai
+Fastly
+Confluent
+HashiCorp
+Dataiku
+Fivetran
+dbt Labs
+Starburst
+ClickHouse
+Pinecone
+Weights & Biases
+Sigma Computing
+Hex
+Amplitude
+Mixpanel
+Braze
+Iterable
+Segment
+Optimizely
+LaunchDarkly
+PagerDuty
+Sentry
+New Relic
+Dynatrace
+Grafana Labs
+Chainalysis
+Kraken
+Gemini
+Circle
+Fireblocks
+Ripple
+OpenSea
+Nubank
+Revolut
+Wise
+Monzo
+Klarna
+Marqeta
+Bill.com
+Carta
+Navan
+Expensify
+Zocdoc
+Oscar Health
+Hims & Hers
+Ro
+Tempus
+Flatiron Health
+Epic Systems
+Veeva
+Cerner
+Jane Street
+Citadel
+Citadel Securities
+Two Sigma
+Hudson River Trading
+Jump Trading
+DE Shaw
+D. E. Shaw
+Optiver
+IMC
+Five Rings
+SIG
+Susquehanna
+Akuna Capital
+Virtu
+Tower Research
+Bloomberg
+Goldman Sachs
+Morgan Stanley
+JPMorgan
+JPMorgan Chase
+BlackRock
+Fidelity
+Charles Schwab
+Ford
+General Motors
+GM
+Rivian Automotive
+Skydio
+Shield AI
+Saronic
+Zipline
+Joby Aviation
+Archer Aviation
+Relativity Space
+Rocket Lab
+Neuralink
+Figure
+Figure AI
+1X
+Boston Dynamics
+Formlabs
+Arc
+Rewind
+Raycast
+Warp
+Arc Browser
+The Browser Company
+Superhuman
+Loom
+Calendly
+Typeform
+Zapier
+Hopper
+Turo
+Getaround
+Opendoor
+Redfin
+Compass
+Procore
+ServiceTitan
+Toast
+Lime
+Bird
+Via
+Waabi
+Plus
+Kodiak
+Applied Materials
+KLA
+Lam Research
+Micron
+Texas Instruments
+Analog Devices
+Marvell
+Arm
+SiFive
+Cerebras
+Groq
+SambaNova
+Lightmatter
+Etched
+Tenstorrent
+Ayar Labs
+CoreWeave
+Lambda
+Together AI
+Modal
+Baseten
+Fireworks AI
+Sierra
+Decagon
+Cognition
+Abridge
+Hebbia
+Writer
+Jasper
+Synthesia
+Descript
+Captions
+CapCut
+Lightricks
+VSCO
+Picsart
+Niantic
+Scopely
+Zynga
+Take-Two
+Rockstar Games
+2K
+Ubisoft
+Bungie
+Mojang
+Supercell
+Playtika
+Jam City
+Snapchat
+X
+Twitter
+Threads
+Instagram
+WhatsApp
+YouTube
+DeepMind
+Google DeepMind
+Microsoft AI
+Amazon Robotics
+Apple Retail
