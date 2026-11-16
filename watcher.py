@@ -105,10 +105,8 @@ def main():
             continue
         hits.append(x)
 
-    with open(SEEN, "w") as f:
-        f.write("\n".join(sorted(seen)) + "\n")
-
     print(f"first_run={first} listings={len(data)} hits={len(hits)}")
+    failed = 0
     for x in hits[:MAX_PUSH]:
         title = f"{x['company_name']} - {x['title']}"[:120]
         body = f"{', '.join(x.get('terms') or [])} | {', '.join((x.get('locations') or [])[:2])}\nTap to open the posting."
@@ -117,9 +115,23 @@ def main():
             try:
                 push(topic, title, body, x.get("url"))
             except Exception as e:
+                # Not marked seen, so the next run (5 min later) tries this alert again.
+                seen.discard(x["id"])
+                failed += 1
                 print("push failed:", e, file=sys.stderr)
     if len(hits) > MAX_PUSH and topic:
-        push(topic, f"+{len(hits) - MAX_PUSH} more SPAN-tier postings", "Check SimplifyJobs Summer2027-Internships.", "https://github.com/SimplifyJobs/Summer2027-Internships")
+        try:
+            push(topic, f"+{len(hits) - MAX_PUSH} more SPAN-tier postings", "Check SimplifyJobs Summer2027-Internships.", "https://github.com/SimplifyJobs/Summer2027-Internships")
+        except Exception as e:
+            for x in hits[MAX_PUSH:]:
+                seen.discard(x["id"])
+            print("push failed:", e, file=sys.stderr)
+
+    # Written only after pushing: a posting whose alert failed stays unseen and is retried.
+    with open(SEEN, "w") as f:
+        f.write("\n".join(sorted(seen)) + "\n")
+    if failed:
+        sys.exit(f"{failed} notification(s) failed; will retry next run")
 
 
 if __name__ == "__main__":
